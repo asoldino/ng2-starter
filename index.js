@@ -11,7 +11,7 @@ function buildSystem(config) {
         src: {
             ts: './src/**/*.ts',
             assets: './src/**/*.{html, css, png, gif}',
-            karmaConf: __dirname + '/karma.conf.js'
+            karmaConf: __dirname + 'karma.conf.js'
         },
 
         destFolder: './dist',

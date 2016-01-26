@@ -24,6 +24,15 @@
   },
   "homepage": "https://github.com/asoldino/ng2-starter#readme",
   "dependencies": {
-    "lodash": "^4.0.1"
+    "gulp": "^3.9.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-watch": "^4.3.5",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "live-server": "^0.9.1",
+    "lodash": "^4.0.1",
+    "run-sequence": "^1.1.5"
   }
 }

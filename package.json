@@ -1,6 +1,6 @@
 {
   "name": "ng2-starter",
-  "version": "1.0.5",
+  "version": "1.0.5-SNAPSHOT.1",
   "description": "Set of gulp predefined tasks and dependencies to work with Angular2 and Typescript",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/asoldino/ng2-starter#readme",
   "dependencies": {
+    "es6-shim": "^0.34.2",
     "gulp": "^3.9.0",
     "gulp-rimraf": "^0.2.0",
     "gulp-typescript": "^2.10.0",
@@ -33,6 +34,8 @@
     "karma-jasmine": "^0.3.6",
     "live-server": "^0.9.1",
     "lodash": "^4.0.1",
-    "run-sequence": "^1.1.5"
+    "reflect-metadata": "^0.1.3",
+    "run-sequence": "^1.1.5",
+    "systemjs": "^0.19.17"
   }
 }

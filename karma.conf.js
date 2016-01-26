@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         basePath: '../..',
-        
+
         frameworks: ['jasmine'],
 
         files: [
@@ -15,16 +15,14 @@ module.exports = function(config) {
 
             {pattern: 'node_modules/angular2/**/*.js', included: false, watched: false, served: true},
             {pattern: 'node_modules/rxjs/**', included: false, watched: false, served: true},
-            {pattern: 'node_modules/random-words/index.js', included: false, watched: false, served: true},
-            {pattern: 'node_modules/lodash/**/*.js', included: false, watched: false, served: true},
-
+            
             'node_modules/es6-shim/es6-shim.js',
 
             'node_modules/systemjs/dist/system.js',
             'node_modules/reflect-metadata/Reflect.js',
 
-            'test/file2modulename.js',
-            'test-main.js'
+            'node_modules/ng2-starter/test/file2modulename.js',
+            'node_modeuls/ng2-starter/test/main.js'
         ],
 
         exclude: [

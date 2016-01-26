@@ -1,6 +1,6 @@
 {
   "name": "ng2-starter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Set of gulp predefined tasks and dependencies to work with Angular2 and Typescript",
   "main": "index.js",
   "scripts": {

@@ -13,7 +13,12 @@ The build system will run on top of some assumptions to make new application dev
 npm i --save ng2-starter
 ```
 
-Now you have access to the following gulp tasks you can add to your package.json file
+Edit your gulpfile as follows:
+``` javascript
+var gulp = require('ng2-starter')();
+```
+
+Now you have access to the following gulp tasks you can add to your package.json file, or even better, the access to the gulp configured system so you can add your tasks at will.
 
 ## clean
 

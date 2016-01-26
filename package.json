@@ -1,0 +1,26 @@
+{
+  "name": "ng2-starter",
+  "version": "1.0.0",
+  "description": "Set of gulp predefined tasks and dependencies to work with Angular2 and Typescript — Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asoldino/ng2-starter.git"
+  },
+  "keywords": [
+    "starter",
+    "gulp",
+    "angular2",
+    "karma",
+    "typescript"
+  ],
+  "author": "Andrea Soldino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asoldino/ng2-starter/issues"
+  },
+  "homepage": "https://github.com/asoldino/ng2-starter#readme"
+}

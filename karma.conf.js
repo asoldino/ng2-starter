@@ -5,30 +5,30 @@ module.exports = function(config) {
         files: [
             // Sources and specs.
             // Loaded through the System loader, in `test-main.js`.
-            {pattern: 'dist/**/*.js', included: false, watched: true, served: true},
+            {pattern: '../../dist/**/*.js', included: false, watched: true, served: true},
             // Maps, sources and definition files. Handy for debugging
-            {pattern: 'dist/**/*.d.ts', included: false, watched: false, served: true},
-            {pattern: 'dist/**/*.js.map', included: false, watched: false, served: true},
-            {pattern: 'src/**/*', included: false, watched: false, served: true},
+            {pattern: '../../dist/**/*.d.ts', included: false, watched: false, served: true},
+            {pattern: '../../dist/**/*.js.map', included: false, watched: false, served: true},
+            {pattern: '../../src/**/*', included: false, watched: false, served: true},
 
-            {pattern: 'node_modules/angular2/**/*.js', included: false, watched: false, served: true},
-            {pattern: 'node_modules/rxjs/**', included: false, watched: false, served: true},
-            {pattern: 'node_modules/random-words/index.js', included: false, watched: false, served: true},
-            {pattern: 'node_modules/lodash/**/*.js', included: false, watched: false, served: true},
+            {pattern: '../angular2/**/*.js', included: false, watched: false, served: true},
+            {pattern: '../rxjs/**', included: false, watched: false, served: true},
+            {pattern: '../random-words/index.js', included: false, watched: false, served: true},
+            {pattern: '../lodash/**/*.js', included: false, watched: false, served: true},
 
-            'node_modules/es6-shim/es6-shim.js',
+            '../es6-shim/es6-shim.js',
 
-            'node_modules/systemjs/dist/system.js',
-            'node_modules/reflect-metadata/Reflect.js',
+            '../systemjs/dist/system.js',
+            '../reflect-metadata/Reflect.js',
 
-            'test/file2modulename.js',
-            'test-main.js'
+            '../../test/file2modulename.js',
+            '../../test-main.js'
         ],
 
         exclude: [
-            'node_modules/angular2/es6/**/examples/**',
-            'node_modules/angular2/examples/**',
-            'node_modules/angular2/**/e2e_test/**'
+            '../angular2/es6/**/examples/**',
+            '../angular2/examples/**',
+            '../angular2/**/e2e_test/**'
         ],
 
         plugins: [

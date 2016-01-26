@@ -22,7 +22,7 @@ module.exports = function(config) {
             'node_modules/reflect-metadata/Reflect.js',
 
             'node_modules/ng2-starter/test/file2modulename.js',
-            'node_modeuls/ng2-starter/test/test-main.js'
+            'node_modules/ng2-starter/test/main.js'
         ],
 
         exclude: [

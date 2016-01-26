@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/asoldino/ng2-starter/issues"
   },
-  "homepage": "https://github.com/asoldino/ng2-starter#readme"
+  "homepage": "https://github.com/asoldino/ng2-starter#readme",
+  "dependencies": {
+    "lodash": "^4.0.1"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "name": "ng2-starter",
   "version": "1.0.3",
-  "description": "Set of gulp predefined tasks and dependencies to work with Angular2 and Typescript — Edit",
+  "description": "Set of gulp predefined tasks and dependencies to work with Angular2 and Typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

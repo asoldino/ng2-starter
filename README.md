@@ -87,6 +87,36 @@ Use it to publish your dist folder to localhost:3000/ as a single page applicati
 
 Use it to clean compile copy-assets test-continuos serve and watch for any file change in src folder to trigger a rebuild and retest of your application :)
 
+# Sample package.json
+
+This is a sample package.json using the described tasks to trigger the build process:
+
+``` javascript
+{
+  "name": "awesome-project",
+  "version": "1.0.0",
+  "description": "Really awesome project",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "serve": "gulp serve",
+    "compile": "gulp compile",
+    "test": "gulp test",
+    "ci": "gulp ci",
+    "copy-assets": "gulp copy-assets"
+  },
+
+  // Less interesting stuff
+```
+
+With this package, you can simply run
+
+``` bash
+npm run ci
+```
+
+to have the complete package up and running on your environment. Cool, isn't it?
+
 # to-do:
 Alot, like
 

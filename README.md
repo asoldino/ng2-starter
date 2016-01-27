@@ -13,7 +13,41 @@ The build system will run on top of some assumptions to make new application dev
 npm i --save ng2-starter
 ```
 
-Edit your gulpfile as follows:
+The build system relies on Typescript to work. It is configured to use your preferred typescript version along with a tsconfig.json file in the project root folder. 
+
+To install Typescript just
+``` bash
+npm i -save-dev typescript (optionally specifiy a version here)
+```
+
+Here it is a sample tsconfig.json file with some standard settings you will want:
+``` javascript
+{
+  "exclude": [
+    "node_modules",
+    "dist" /* Just to be sure your .d.ts files will not be touced */
+  ],
+
+  "compilerOptions": {
+    "listFiles": true,
+    "isolatedModules": true,
+
+    "charset": "UTF-8",
+    "declaration": true,
+    "module": "system",
+
+    "sourceMap": true,
+    "target": "es5",
+    "watch": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "pretty": true /* This option only works from typescript 1.8 onwards */
+  }
+}
+```
+
+Edit your gulpfile.js as follows:
 ``` javascript
 var gulp = require('ng2-starter')();
 ```

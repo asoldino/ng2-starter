@@ -17,7 +17,7 @@ The build system relies on Typescript to work. It is configured to use your pref
 
 To install Typescript just
 ``` bash
-npm i -save-dev typescript (optionally specifiy a version here)
+npm i --save-dev typescript (@optionally specifiy a version here)
 ```
 
 Here it is a sample tsconfig.json file with some standard settings you will want:
@@ -45,6 +45,11 @@ Here it is a sample tsconfig.json file with some standard settings you will want
     "pretty": true /* This option only works from typescript 1.8 onwards */
   }
 }
+```
+
+Then you will need angular2
+``` bash
+npm i --save angular2 (@optionally specify a version here)
 ```
 
 Edit your gulpfile.js as follows:
